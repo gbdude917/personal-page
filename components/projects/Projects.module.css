@@ -72,6 +72,10 @@
   font-size: 22.5px;
 }
 
+.description a {
+  color: white;
+}
+
 .description a:visited {
   color: white;
 }
