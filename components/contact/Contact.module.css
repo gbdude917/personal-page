@@ -1,0 +1,48 @@
+.container {
+  background-color: #282828;
+  color: white;
+  padding: 90px 25px;
+}
+
+.container h2 {
+  margin: 0;
+  margin-bottom: 50px;
+  border-bottom: 5px solid white;
+  font-size: 32px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15px;
+  padding-top: 30px;
+  width: 70%;
+}
+
+.icons a {
+  height: 50px;
+  width: 50px;
+}
+
+.icon {
+  font-size: 50px;
+  color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
+}

@@ -4,7 +4,17 @@ import classes from "./IntroText.module.css";
 function IntroText() {
   return (
     <div className={classes.wrapper}>
-      <div className={classes.text} id="About">
+      <div className={classes.imageWrapper}>
+        <Image
+          src="/images/space.webp"
+          alt="space image"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+        />
+      </div>
+
+      <div className={classes.text}>
         <div>
           <div className={classes.portrait}>
             <Image
@@ -25,6 +35,14 @@ function IntroText() {
           React. I have some experience with NextJS and TypeScript. In my free
           time I enjoy playing video games, working out, and cooking.
         </p>
+
+        <form
+          action="/files/website-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <input type="submit" value="View Resume" className={classes.button} />
+        </form>
       </div>
     </div>
   );

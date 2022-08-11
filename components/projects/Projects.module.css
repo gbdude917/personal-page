@@ -1,5 +1,5 @@
 .container {
-  background-color: #282828;
+  background-color: #333333;
   color: white;
   padding: 90px 25px;
 }
@@ -33,6 +33,25 @@
   flex-direction: row;
   width: 80%;
   padding: 25px;
+  margin: 15px;
+  align-items: center;
+}
+
+.imageWrapper {
+  box-sizing: content-box;
+  height: 100%;
+  width: 100%;
+}
+
+.imageWrapper > div {
+  position: unset !important;
+}
+
+.imageWrapper .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
 }
 
 .item p {
@@ -40,7 +59,9 @@
 }
 
 .description {
+  flex: 3 0 1;
   margin: 10px;
+  text-align: center;
 }
 
 .description h3 {
@@ -51,9 +72,14 @@
   font-size: 22.5px;
 }
 
+.description a:visited {
+  color: white;
+}
+
 @media screen and (max-width: 550px) {
   .item {
     flex-direction: column;
+    padding: 10px;
   }
 
   .description {

@@ -13,19 +13,19 @@ function Nav(props: any) {
           </li>
 
           <li>
-            <Link href="#About">
+            <Link href="#Experience">
               <a>Experience</a>
             </Link>
           </li>
 
           <li>
-            <Link href="#About">
+            <Link href="#Projects">
               <a>Projects</a>
             </Link>
           </li>
 
           <li>
-            <Link href="#About">
+            <Link href="#Contact">
               <a>Contact</a>
             </Link>
           </li>
